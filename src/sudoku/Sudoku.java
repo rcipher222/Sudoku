@@ -50,13 +50,11 @@ public static boolean check(int x, int si, int sj){
 }
 
 public static  void print(){
-	System.out.println("-  -  -  -  -  -");
 	for(int i=0;i<9;i++){
 		for(int j=0;j<9;j++){
 			System.out.print(a[i][j]+"  ");
 		}System.out.println("");
 	}
-	System.out.println("-  -  -  -  -  -");
 }
 
 public static  boolean solve(int si, int sj){
